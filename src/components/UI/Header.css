@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px #e3e3e3 solid;
+}
+.header__date {
+  display: flex;
+  justify-content: flex-start;
+  width: 30%;
+  gap: 2%;
+}
