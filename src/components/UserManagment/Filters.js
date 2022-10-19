@@ -1,28 +1,12 @@
 import React, { useState } from "react";
 import "./Filters.css";
+import StatusData from "./StatusData";
 import TextField from "@mui/material/TextField";
 import MenuItem from "@mui/material/MenuItem";
 
-const Filters = () => {
-  const statusData = [
-    {
-      id: 1,
-      value: "locked",
-    },
-    {
-      id: 2,
-      value: "inactive",
-    },
-    {
-      id: 3,
-      value: "active",
-    },
-  ];
-  const [status, setStatus] = useState("any");
-  const handleChange = (event) => {
-    setStatus(event.target.value);
-  };
-  console.log(status, "status");
+const Filters = ({ search, setSearch, username, setUsername }) => {
+  const [status, setStatus] = useState("");
+
   return (
     <div className="filters">
       <div className="filters_search">
@@ -32,6 +16,8 @@ const Filters = () => {
           label="Search..."
           variant="outlined"
           size="small"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
         />
       </div>
       <div className="filters_username">
@@ -41,6 +27,8 @@ const Filters = () => {
           label="User Name"
           variant="outlined"
           size="small"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
         />
       </div>
       <div className="filters_status">
@@ -51,13 +39,10 @@ const Filters = () => {
           label="status"
           size="small"
           value={status}
-          onChange={handleChange}
-          //   helperText="Find it by status"
+          onChange={(e) => setStatus(e.target.value)}
         >
-          {statusData.map((item) => (
-            <MenuItem key={item.id} value={item.value}>
-              {item.value}
-            </MenuItem>
+          {StatusData.map((item) => (
+            <MenuItem key={item.id}>{item.value}</MenuItem>
           ))}
         </TextField>
       </div>

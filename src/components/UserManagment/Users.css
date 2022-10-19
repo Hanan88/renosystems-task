@@ -1,15 +1,16 @@
-.table {
-  /* background-color: red; */
-}
 .table-row .css-1ygcj2i-MuiTableCell-root {
   letter-spacing: 1px;
   font-size: 17px;
   font-weight: 600;
-  background-color: #F8FAFB;
+  background-color: #f8fafb;
   color: #676c7f;
 }
 .table-row .css-1ex1afd-MuiTableCell-root {
-  /* background-color: blue; */
   letter-spacing: 1px;
   font-size: 17px;
+}
+.table-row__cell {
+  display: flex !important;
+  align-items: center;
+  gap: 5px;
 }
