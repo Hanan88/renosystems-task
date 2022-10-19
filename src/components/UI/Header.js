@@ -1,8 +1,8 @@
 import React from "react";
 import HeaderDate from "./HeaderDate";
 import ProfileInfo from "./ProfileInfo";
-
-import './Header.css'
+import MenuIcon from "@mui/icons-material/Menu";
+import "./Header.css";
 
 const Header = ({ collapse, setCollapse }) => {
   const openCollapse = () => {
@@ -12,7 +12,9 @@ const Header = ({ collapse, setCollapse }) => {
   return (
     <div className="header">
       <div className="header__date">
-        <button onClick={openCollapse}>+</button>
+        <button className="header-button" onClick={openCollapse}>
+          <MenuIcon />
+        </button>
         <HeaderDate />
       </div>
       <ProfileInfo />

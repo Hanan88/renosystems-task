@@ -1,11 +1,18 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1px #e3e3e3 solid;
+  background: #fff;
 }
 .header__date {
   display: flex;
   justify-content: flex-start;
   width: 30%;
   gap: 2%;
+}
+.header-button {
+  background: none;
+  border: none;
+  color: #676c7f;
 }

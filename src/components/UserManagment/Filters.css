@@ -1,0 +1,23 @@
+.filters {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+.filters__button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #3e95fb;
+  font-size: 15px;
+  font-weight: 500;
+}
+.filters_search{
+    width: 300px;
+}
+.filters_username{
+    width: 200px;
+}
+.filters_status{
+    width: 200px;
+}

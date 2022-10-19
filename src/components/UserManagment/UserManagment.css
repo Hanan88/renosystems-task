@@ -1,0 +1,17 @@
+.user-managment__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-managment__header-button {
+  background-color: #22a565;
+  color: #fff;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
