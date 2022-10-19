@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 15px;
+  padding: 0 40px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -35,16 +35,12 @@
   flex-direction: column;
   margin: 25px 0;
 }
-.form-box__label {
-  margin: 0;
-  color: #232b2b;
+.form-box div {
+  background-color: #fff;
 }
-.form-box__input {
-  background: #fff;
-  border: 1px #ddd solid;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 5px 0;
+.form-box__label {
+  margin: 3px 0;
+  color: #232b2b;
 }
 .popup-footer {
   display: flex;
@@ -63,7 +59,7 @@
 .popuo-footer__actions-cancel {
   background-color: #fff;
   color: #232b2b;
-  padding: 0.4rem 0.8rem;
+  padding: 0.6rem 1rem;
   border: 1px #ddd solid;
   border-radius: 5px;
   cursor: pointer;
@@ -74,7 +70,7 @@
 .popuo-footer__actions-add {
   background-color: #22a565;
   color: #fff;
-  padding: 0.4rem 0.8rem;
+  padding: 0.6rem 1rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;

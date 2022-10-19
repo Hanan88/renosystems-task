@@ -3,8 +3,7 @@ import "./UserManagment.css";
 import AddIcon from "@mui/icons-material/Add";
 import Card from "../UI/Card";
 import Container from "../UI/Container";
-import Content from "./Content";
-import Modal from "@mui/material/Modal";
+import Content from "./Content"; 
 import Popup from "./Popup";
 
 const UserManagment = () => {
