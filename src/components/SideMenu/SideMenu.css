@@ -1,0 +1,36 @@
+.side-menu {
+  float: left;
+  background-color: #050e2d;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0 10px;
+}
+.side-menu__logo {
+  text-align: center;
+}
+.side-menu__logo-img {
+  width: 70%;
+}
+.side-menu__search {
+  background-color: #fff;
+  border-radius: 20px;
+}
+.side-menu__dashboard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #6f7486;
+  margin: 0 15px;
+}
+.side-menu__settings {
+  margin: 0 15px;
+  color: #6f7486;
+}
+.side-menu__settings-h4{
+    letter-spacing: 3px;
+}

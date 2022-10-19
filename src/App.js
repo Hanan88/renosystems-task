@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import SideMenu from "./components/SideMenu/SideMenu";
 import Header from "./components/UI/Header";
-import SideMenu from "./components/UI/SideMenu";
 import UserManagment from "./components/UserManagment/UserManagment";
 
 function App() {
