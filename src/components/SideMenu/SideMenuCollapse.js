@@ -54,7 +54,7 @@ const SideMenuCollapse = () => {
       </div>
       <div>
         <button className="side-menu__settings-button">
-          License Management
+          License 
           <KeyboardArrowDownIcon />
         </button>
         <Collapse>
