@@ -9,7 +9,7 @@ import Select from "@mui/material/Select";
 import Checkbox from "@mui/material/Checkbox";
 import InputLabel from "@mui/material/InputLabel";
 import FormControl from "@mui/material/FormControl";
-import StaticDateRangePickerDemo from "./StaticDateRangePickerDemo";
+import TimePicker from "./TimePicker";
 
 const Filters = ({ search, setSearch, username, setUsername }) => {
   const [status, setStatus] = useState([]);
@@ -67,7 +67,7 @@ const Filters = ({ search, setSearch, username, setUsername }) => {
         </FormControl>
       </div>
       <div>
-        {/* <StaticDateRangePickerDemo /> */}
+        <TimePicker />
       </div>
       <div>
         <button className="filters__button">All Filters</button>
