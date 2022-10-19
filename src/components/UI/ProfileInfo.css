@@ -1,0 +1,19 @@
+.profile-info {
+  display: flex;
+  gap: 15px;
+}
+.profile-info__notificaitons {
+  color: #6f7486;
+  border-right: 1px solid #6f74863d;
+  padding: 0 10px;
+}
+.profile-info__notificaitons svg {
+  font-size: 2rem;
+}
+.profile-info__profile-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}

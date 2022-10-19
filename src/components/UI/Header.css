@@ -4,6 +4,7 @@
   align-items: center;
   border-bottom: 1px #e3e3e3 solid;
   background: #fff;
+  padding: 0 20px;
 }
 .header__date {
   display: flex;
