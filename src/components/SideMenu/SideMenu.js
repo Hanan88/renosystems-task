@@ -3,6 +3,7 @@ import "./SideMenu.css";
 import logo from "./logo-remoSystem.png";
 import TextField from "@mui/material/TextField";
 import DashboardIcon from "@mui/icons-material/Dashboard";
+import SideMenuCollapse from "./SideMenuCollapse";
 
 const SideMenu = () => {
   return (
@@ -27,6 +28,7 @@ const SideMenu = () => {
 
       <div className="side-menu__settings">
         <h4 className="side-menu__settings-h4">SETTEINGS</h4>
+        <SideMenuCollapse />
       </div>
     </div>
   );
